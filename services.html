@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecoturismo Mágico en Ciénaga, Magdalena</title>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6fff7;
+    color: #333;
+  }
+  header {
+    background-color: #8affd4;
+    color: #006655;
+    text-align: center;
+    padding: 1rem;
+    background-image: url('play.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  nav {
+    padding: 0.5rem;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background: linear-gradient(90deg, rgba(140, 235, 142, 1) 1%, rgba(47, 172, 195, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0.5rem 1rem;
+  }
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .experience-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  .experience-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .experience-content {
+    padding: 1.5rem;
+  }
+  .experience-content h3 {
+    color: #006655;
+    margin-top: 0;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #8affd4;
+    color: #006655;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #5cffbd;
+  }
+  footer {
+    background-color: #8affd4;
+    color: #006655;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+</style>
+</head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<body>
+<body>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573206915918" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
+  <header>
+    <h1>Bienvenido a Ecoturismo Mágico</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="services.html">Servicios</a></li>
+      <li><a href="about.html">Sobre Nosotros</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="resenias.html">Reseñas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Explora la Belleza de Ciénaga</h2>
+    <p>Descubre nuestras experiencias de ecoturismo en Ciénaga, Magdalena. Ofrecemos una variedad de tours que te permiten disfrutar de la naturaleza, la cultura y la gastronomía de la región.</p>
+    
+    <div class="experience-grid">
+      <div class="experience-card">
+        <img src="mang.jpg" alt="Bote navegando por los manglares de la Ciénaga Grande de Santa Marta">
+        <div class="experience-content">
+          <h3>Tours por la Ciénaga Grande</h3>
+          <p>Explora los manglares de la Ciénaga Grande de Santa Marta. Navega entre manglares, observa aves y conoce a las comunidades locales.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="thermal.jpg" alt="Sendero de la Sierra Nevada de Santa Marta">
+        <div class="experience-content">
+          <h3>Bañate en aguas termales</h3>
+          <p>Relájate en aguas termales naturales, rodeado de paisajes únicos y con beneficios revitalizantes para el cuerpo.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="pueblos-palafitos-del-magdalena-vkb.jpg" alt="Casas palafíticas en Nueva Venecia">
+        <div class="experience-content">
+          <h3>Visitas a Pueblos Palafíticos</h3>
+          <p>Conoce los pueblos palafíticos de Nueva Venecia y Buenavista. Aprende sobre su historia y cultura local.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="original.jpg" alt="Observación de aves en el Santuario de Flora y Fauna">
+        <div class="experience-content">
+          <h3>Observación de Aves</h3>
+          <p>Descubre la rica biodiversidad del Santuario de Flora y Fauna Ciénaga Grande con guías expertos.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="DW3G3BXPMVIUXCOCC3U6RRCTVI.jpg" alt="Calle colonial en Ciénaga, Magdalena">
+        <div class="experience-content">
+          <h3>Recorridos Históricos</h3>
+          <p>Explora el centro histórico de Ciénaga, visita monumentos y aprende sobre la cultura local.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+
+      <div class="experience-card">
+        <img src="pescado-frito-5p9x640.jpg" alt="Plato típico de pescado con patacones">
+        <div class="experience-content">
+          <h3>Experiencias Gastronómicas</h3>
+          <p>Disfruta de la auténtica cocina cienaguera y participa en clases de cocina y tours gastronómicos.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ecoturismo Mágico - Ciénaga, Magdalena. Todos los derechos reservados.</p>
+    <p>Dirección: Calle 11 #10-22, Centro Histórico, Ciénaga, Magdalena</p>
+    <p>Teléfono: +57 315 123 4567 | Email: info@ecoturismomagico.com</p>
+  </footer>
+
+</body>
+</html>

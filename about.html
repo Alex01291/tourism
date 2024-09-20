@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre Nosotros - Ecoturismo Mágico en Ciénaga, Magdalena</title>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6fff7;
+    color: #333;
+  }
+  header {
+    background-color: #8affd4;
+    color: #006655;
+    text-align: center;
+    padding: 1rem;
+    background-image: url('play.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  nav {
+    padding: 0.5rem;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background: linear-gradient(90deg, rgba(140, 235, 142, 1) 1%, rgba(47, 172, 195, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0.5rem 1rem;
+  }
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .about-section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+  }
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 2rem;
+  }
+  footer {
+    background-color: #8affd4;
+    color: #006655;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+</style>
+</head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<body>
+<body>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573206915918" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
+  <header>
+    <h1>Sobre Nosotros</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="services.html">Servicios</a></li>
+      <li><a href="about.html">Sobre Nosotros</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="resenias.html">Reseñas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="about-section">
+      <h2>Nuestra Historia</h2>
+      <div class="team-member">
+        <img src="a1.png" alt="Foto de María Rodríguez, fundadora y directora de Ecoturismo Mágico" width="150" height="150">
+        <div>
+          <h3>America Sarmiento</h3>
+          <p>Fundadora y Directora</p>
+          <p>Con más de 20 años de experiencia en turismo sostenible, America ha sido la fuerza impulsora detrás de Ecoturismo Mágico. Su profundo conocimiento de la región y su pasión por la conservación han sido fundamentales en el desarrollo de nuestros programas.</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="ng.png" alt="Foto de Carlos Mendoza, guía principal y experto en biodiversidad" width="150" height="150">
+        <div>
+          <h3>Isaac Bustamante</h3>
+          <p>Guía Principal y Experto en Biodiversidad</p>
+          <p>Biólogo de formación y nativo de Ciénaga, Isaac combina su experiencia científica con un profundo amor por su tierra natal. Su entusiasmo contagioso y su vasto conocimiento hacen que cada tour sea una experiencia educativa inolvidable.</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="a2.png" alt="Foto de Laura Martínez, Especialista en Turismo Cultural" width="150" height="150">
+        <div>
+          <h3>Laura Lobo</h3>
+          <p>Especialista en Turismo Cultural</p>
+          <p>Antropóloga de profesión, Laura se encarga de diseñar y guiar nuestros tours culturales. Su pasión por las tradiciones locales y su habilidad para contar historias fascinantes hacen que nuestros visitantes se sumerjan completamente en la rica herencia cultural de Ciénaga.</p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img src="masnigga.png" alt="Foto de David Ortiz, Coordinador de Sostenibilidad" width="150" height="150">
+        <div>
+          <h3>Juan Diego Ramirez</h3>
+          <p>Coordinador de Sostenibilidad</p>
+          <p>Ingeniero ambiental y activista local, Juan Diego lidera nuestros esfuerzos de conservación y proyectos comunitarios. Su trabajo es crucial para asegurar que nuestras actividades turísticas tengan un impacto positivo en el medio ambiente y en las comunidades locales.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <h2>Nuestros Valores</h2>
+      <p>En EcoTurismo Mágico, nos guiamos por la sostenibilidad, el respeto a la diversidad cultural y natural, y la colaboración con comunidades locales. Promovemos la educación y la autenticidad en nuestras experiencias, empoderando a las comunidades y fomentando un espíritu de aventura que conecta a los viajeros con la riqueza de la región.</p>
+    </section>
+
+    <section class="about-section">
+      <h2>Misión</h2>
+      <p>
+        En EcoTurismo Mágico, nos dedicamos a ofrecer experiencias turísticas auténticas que celebran la riqueza cultural y natural de nuestra región. Promovemos la sostenibilidad y el respeto por la biodiversidad, trabajando en colaboración con las comunidades locales para fortalecer su desarrollo económico y social. A través de nuestras aventuras, buscamos crear conciencia sobre la importancia de la conservación del medio ambiente, brindando a los viajeros la oportunidad de aprender y conectarse profundamente con la naturaleza y las tradiciones de Ciénaga.
+      </p>
+    </section>
+    <section class="about-section">
+    <h2>Visión</h2>
+    <p>
+      Ser reconocidos como líderes en el turismo responsable en Ciénaga, transformando cada experiencia en un vehículo para la preservación del medio ambiente y el enriquecimiento de las comunidades locales. Aspiramos a inspirar a viajeros de todo el mundo a adoptar un enfoque consciente hacia el turismo, asegurando que nuestras iniciativas beneficien tanto a las generaciones presentes como a las futuras, creando un legado de respeto y sostenibilidad en la región.
+    </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ecoturismo Mágico - Ciénaga, Magdalena. Todos los derechos reservados.</p>
+    <p>Dirección: Calle 11 #10-22, Centro Histórico, Ciénaga, Magdalena</p>
+    <p>Teléfono: +57 315 123 4567 | Email: info@ecoturismomagico.com</p>
+  </footer>
+
+</body>
+</html>

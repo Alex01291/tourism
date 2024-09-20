@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ecoturismo Mágico - Descubre Ciénaga, Magdalena</title>
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6fff7;
+    color: #333;
+  }
+  header {
+    background-color: #8affd4;
+    color: #eeeeee;
+    text-align: center;
+    padding: 1rem;
+    background-image: url('cien1.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  header p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+  }
+  nav {
+    padding: 0.5rem;
+    border-top: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    background: linear-gradient(90deg, rgba(140, 235, 142, 1) 1%, rgba(47, 172, 195, 1) 66%, rgba(0, 212, 255, 1) 100%);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0.5rem 1rem;
+  }
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  .intro {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  .highlight-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  }
+  .highlight-card h3 {
+    color: #006655;
+    margin-top: 0;
+  }
+  .highlight-card p {
+    margin-bottom: 1rem;
+  }
+  .btn {
+    display: inline-block;
+    background-color: #8affd4;
+    color: #006655;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #5cffbd;
+  }
+  footer {
+    background-color: #8affd4;
+    color: #006655;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+</style>
+</head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<body>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573206915918" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
+  <header>
+    <h1>Bienvenido a Ecoturismo Mágico</h1>
+    <p>Explora las maravillas naturales y culturales de Ciénaga, Magdalena. Vive experiencias únicas mientras contribuyes a la conservación y el desarrollo sostenible.</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="services.html">Servicios</a></li>
+      <li><a href="about.html">Sobre Nosotros</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="resenias.html">Reseñas</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Descubre Ciénaga</h2>
+      <p>Ecoturismo Mágico te invita a descubrir la riqueza natural y cultural de Ciénaga, un destino lleno de historia, biodiversidad y paisajes impresionantes. Desde excursiones a la Sierra Nevada hasta visitas a los pueblos palafíticos, tenemos algo para todos los gustos.</p>
+    </section>
+
+    <section class="highlights">
+      <div class="highlight-card">
+        <h3>Conéctate con la Naturaleza</h3>
+        <p>Explora ecosistemas únicos como los manglares de la Ciénaga Grande y la fauna local. Participa en nuestros tours ecológicos y contribuye a la conservación de estas maravillas naturales.</p>
+        <a href="services.html" class="btn">Descubre Más</a>
+      </div>
+      
+      <div class="highlight-card">
+        <h3>Vive la Cultura Local</h3>
+        <p>Sumérgete en la cultura de Ciénaga a través de nuestras visitas guiadas a los pueblos palafíticos y el centro histórico. Conoce sus tradiciones y comparte con sus habitantes.</p>
+        <a href="about.html" class="btn">Más Sobre Nosotros</a>
+      </div>
+      
+      <div class="highlight-card">
+        <h3>Aventuras Personalizadas</h3>
+        <p>Creamos experiencias personalizadas para que disfrutes de Ciénaga a tu manera. Desde tours privados hasta experiencias familiares, diseñamos el itinerario perfecto para ti.</p>
+        <a href="contact.html" class="btn">Contáctanos</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ecoturismo Mágico - Ciénaga, Magdalena. Todos los derechos reservados.</p>
+    <p>Dirección: Calle 11 #10-22, Centro Histórico, Ciénaga, Magdalena</p>
+    <p>Teléfono: +57 315 123 4567 | Email: info@ecoturismomagico.com</p>
+  </footer>
+
+</body>
+</html>
